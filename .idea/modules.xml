@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/week_one.iml" filepath="$PROJECT_DIR$/.idea/week_one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../python_fundamentials_softuni/.idea/python_fundamentials_softuni.iml" filepath="$PROJECT_DIR$/../python_fundamentials_softuni/.idea/python_fundamentials_softuni.iml" />
       <module fileurl="file://$PROJECT_DIR$/../week_two/.idea/week_two.iml" filepath="$PROJECT_DIR$/../week_two/.idea/week_two.iml" />
     </modules>
   </component>
