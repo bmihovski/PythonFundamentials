@@ -13,13 +13,16 @@ triangle_height = float(input())
 def triangle_area(base, height):
     """
     Calculates triangle area by given base and height
-    :param base: Int triangle base distance
-    :param height: Int triangle height distance
-    :return: Str Calculated triangle area
+    :param base: Float triangle base distance
+    :param height: Float triangle height distance
+    :return: Float Calculated triangle area
     """
     calc_triangle_area = (base * height) / 2
 
-    return print(f'{calc_triangle_area:.12g}')
+    return calc_triangle_area
 
 
-triangle_area(triangle_base, triangle_height)
+if __name__ == '__main__':
+    calculated_area = triangle_area(triangle_base, triangle_height)
+    print(f'{calculated_area:.12g}')
+
