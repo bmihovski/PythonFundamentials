@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="655a1254-d5d9-4a42-8112-2985b9ddb6e6" name="Default" comment="week two third exercise tested in judge">
-      <change beforePath="" afterPath="$PROJECT_DIR$/draw_a_filled_square.py" />
+    <list default="true" id="655a1254-d5d9-4a42-8112-2985b9ddb6e6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -98,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/draw_a_filled_square.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="533">
-              <caret line="36" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="39" />
+              <caret line="36" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -541,7 +540,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516221492706</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="week two fourth exercise tested in judge">
+      <created>1516386173498</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1516386173498</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -584,7 +590,8 @@
     <MESSAGE value="week two first exercise" />
     <MESSAGE value="week two second exercise" />
     <MESSAGE value="week two third exercise tested in judge" />
-    <option name="LAST_COMMIT_MESSAGE" value="week two third exercise tested in judge" />
+    <MESSAGE value="week two fourth exercise tested in judge" />
+    <option name="LAST_COMMIT_MESSAGE" value="week two fourth exercise tested in judge" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1021,7 +1028,7 @@
     <entry file="file://$PROJECT_DIR$/draw_a_filled_square.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="533">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="39" />
+          <caret line="36" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="39" />
           <folding />
         </state>
       </provider>
