@@ -17,9 +17,9 @@ def triangle_area(base, height):
     :param height: Int triangle height distance
     :return: Str Calculated triangle area
     """
-    calc_triange_area = (base * height) / 2
+    calc_triangle_area = (base * height) / 2
 
-    return print(f'{calc_triange_area:.12g}')
+    return print(f'{calc_triangle_area:.12g}')
 
 
 triangle_area(triangle_base, triangle_height)
