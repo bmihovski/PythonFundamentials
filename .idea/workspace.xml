@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="655a1254-d5d9-4a42-8112-2985b9ddb6e6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/greater_of_two_values.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/multiply_even_by_odds.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,51 +14,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="numbers_with_step.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/numbers_with_step.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="draw_a_filled_square.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/draw_a_filled_square.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="39" />
+            <state relative-caret-position="398">
+              <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calculate_triangle_area.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calculate_triangle_area.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="calc_math_power.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calc_math_power.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="greater_of_two_values.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="greater_of_two_values.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/greater_of_two_values.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="305">
               <caret line="21" column="55" lean-forward="true" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="multiply_even_by_odds.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/multiply_even_by_odds.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="536">
+              <caret line="71" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -99,6 +79,7 @@
         <option value="$PROJECT_DIR$/calculate_triangle_area.py" />
         <option value="$PROJECT_DIR$/calc_math_power.py" />
         <option value="$PROJECT_DIR$/greater_of_two_values.py" />
+        <option value="$PROJECT_DIR$/multiply_even_by_odds.py" />
       </list>
     </option>
   </component>
@@ -157,7 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.greater_of_two_values">
+  <component name="RunManager" selected="Python.multiply_even_by_odds">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -230,6 +211,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="multiply_even_by_odds" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python_fundamentials_softuni" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/multiply_even_by_odds.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="printing_triangle" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -243,24 +242,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python_fundamentials_softuni" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/printing_triangle.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="sign_of_int_number" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python_fundamentials_softuni" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sign_of_int_number.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -354,19 +335,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.sign_of_int_number" />
-      <item index="1" class="java.lang.String" itemvalue="Python.printing_triangle" />
-      <item index="2" class="java.lang.String" itemvalue="Python.draw_a_filled_square" />
-      <item index="3" class="java.lang.String" itemvalue="Python.calculate_triangle_area" />
-      <item index="4" class="java.lang.String" itemvalue="Python.greater_of_two_values" />
+      <item index="0" class="java.lang.String" itemvalue="Python.printing_triangle" />
+      <item index="1" class="java.lang.String" itemvalue="Python.draw_a_filled_square" />
+      <item index="2" class="java.lang.String" itemvalue="Python.calculate_triangle_area" />
+      <item index="3" class="java.lang.String" itemvalue="Python.greater_of_two_values" />
+      <item index="4" class="java.lang.String" itemvalue="Python.multiply_even_by_odds" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.greater_of_two_values" />
-        <item index="1" class="java.lang.String" itemvalue="Python.calculate_triangle_area" />
-        <item index="2" class="java.lang.String" itemvalue="Python.draw_a_filled_square" />
-        <item index="3" class="java.lang.String" itemvalue="Python.printing_triangle" />
-        <item index="4" class="java.lang.String" itemvalue="Python.sign_of_int_number" />
+        <item index="0" class="java.lang.String" itemvalue="Python.multiply_even_by_odds" />
+        <item index="1" class="java.lang.String" itemvalue="Python.greater_of_two_values" />
+        <item index="2" class="java.lang.String" itemvalue="Python.calculate_triangle_area" />
+        <item index="3" class="java.lang.String" itemvalue="Python.draw_a_filled_square" />
+        <item index="4" class="java.lang.String" itemvalue="Python.printing_triangle" />
       </list>
     </recent_temporary>
   </component>
@@ -538,13 +519,20 @@
       <option name="project" value="LOCAL" />
       <updated>1516395211082</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="week two seven exercise tested in judge">
+      <created>1516443919229</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1516443919229</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18229167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18229167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286991" sideWeight="0.52916664" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286991" sideWeight="0.47083333" order="2" side_tool="false" content_ui="tabs" />
@@ -584,7 +572,8 @@
     <MESSAGE value="week two fourth exercise tested in judge" />
     <MESSAGE value="week two fifth exercise tested in judge" />
     <MESSAGE value="week two six exercise tested in judge, changed docstrings on fifth" />
-    <option name="LAST_COMMIT_MESSAGE" value="week two six exercise tested in judge, changed docstrings on fifth" />
+    <MESSAGE value="week two seven exercise tested in judge" />
+    <option name="LAST_COMMIT_MESSAGE" value="week two seven exercise tested in judge" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -618,13 +607,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/person_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="31" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hello_world">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -933,26 +915,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/draw_a_filled_square.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/printing_triangle.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/numbers_with_step.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -979,6 +945,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/numbers_with_step.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/calc_math_power.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -989,8 +963,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/greater_of_two_values.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="305">
           <caret line="21" column="55" lean-forward="true" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/draw_a_filled_square.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multiply_even_by_odds.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="71" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding />
         </state>
       </provider>
