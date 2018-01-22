@@ -6,5 +6,5 @@ Hints
 "	Finally, print the resulting list, using a for loop
 """
 nums_to_multiply = input().split(' ')
-mult_num = int(input())
-print(*[int(item) * mult_num for item in nums_to_multiply], sep=' ')
+multiply_num = int(input())
+print(*[int(item) * multiply_num for item in nums_to_multiply], sep=' ')
