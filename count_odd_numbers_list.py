@@ -5,6 +5,6 @@ Hints:
     Odd numbers, which are negative, have a remainder of -1.
 """
 nums_odd = list()
-nums_stdin = list(map(int ,input().split(' ')))
+nums_stdin = list(map(int, input().split(' ')))
 [nums_odd.append(item) for item in nums_stdin if item % 2 == 1 or item % 2 == -1]
 print(len(nums_odd))
