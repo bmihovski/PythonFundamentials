@@ -8,6 +8,5 @@ Hints
     To order the results list in descending order use sorting with reverse
 """
 nums_to_check = list(map(int, input().split()))
-nums_to_check.sort()
-nums_to_check.reverse()
-[print(item, end=' ') for item in nums_to_check if item**0.5 == int(item**0.5)]
+nums_to_check.sort(reverse=True)
+[print(item, end=' ') for item in nums_to_check if item > 0 and item**0.5 == int(item**0.5)]
