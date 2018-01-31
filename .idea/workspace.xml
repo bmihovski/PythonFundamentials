@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="655a1254-d5d9-4a42-8112-2985b9ddb6e6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/odd_occurrences.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/odd_occurrences.py" afterPath="$PROJECT_DIR$/odd_occurrences.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,8 +17,8 @@
       <file leaf-file-name="odd_occurrences.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/odd_occurrences.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -637,7 +637,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517257950120</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="week four first exercise not working">
+      <created>1517425279377</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1517425279377</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TodoView">
@@ -707,7 +714,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="second exercise" />
     <MESSAGE value="third exercise" />
     <MESSAGE value="third exercise fixed" />
     <MESSAGE value="fourth exercise" />
@@ -732,7 +738,8 @@
     <MESSAGE value="week three ten failed in judge" />
     <MESSAGE value="week three ten tested in judge" />
     <MESSAGE value="week three release" />
-    <option name="LAST_COMMIT_MESSAGE" value="week three release" />
+    <MESSAGE value="week four first exercise not working" />
+    <option name="LAST_COMMIT_MESSAGE" value="week four first exercise not working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1150,8 +1157,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/odd_occurrences.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding />
         </state>
       </provider>

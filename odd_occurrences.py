@@ -12,5 +12,5 @@ Hints
 prog_langs = 'Java C# PHP PHP JAVA C java'.lower().split(' ')
 lang_occur = {}
 
-f = map(lambda lang: lang_occur[lang] += 1 prog_langs else lang_occur[lang] = 1, prog_langs)
+f = map(lambda lang: lang_occur[lang] += 1 if lang in lang_occur else lang_occur[lang] = 1, prog_langs)
 print(*f)
