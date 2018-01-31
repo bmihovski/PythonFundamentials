@@ -8,9 +8,15 @@ Hints
     Pass through all key-value pairs in the dictionary and append to the results list all keys that have odd value.
     Print the results list.
 """
-#Java C# PHP PHP JAVA C java
-prog_langs = 'Java C# PHP PHP JAVA C java'.lower().split(' ')
-lang_occur = {}
+prog_langs = input().lower().split(' ')
+lang_occur = dict()
+results = list()
 
-f = map(lambda lang: lang_occur[lang] += 1 if lang in lang_occur else lang_occur[lang] = 1, prog_langs)
-print(*f)
+for lang in prog_langs:
+    if lang in lang_occur:
+        lang_occur[lang] += 1
+    else:
+        lang_occur[lang] = 1
+
+{results.append(key) for key, value in lang_occur.items() if value % 2 == 1}
+print(*results, sep=', ')
