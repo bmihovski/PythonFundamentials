@@ -13,14 +13,18 @@ If the given second name DOES NOT exist, you must IGNORE that input.
 When you receive the command "end", you must print all entries with their value, by order of input, in the following format:
 {entry} === {value}
 """
-input_value = dict()
-input_stdin = list()
-while 'end' not in input_stdin:
-    input_stdin = input().split(' = ')
-    if 'end' in input_stdin:
+input_values = dict()
+inputs_stdin = list()
+while 'end' not in inputs_stdin:
+    inputs_stdin = input().split(' = ')
+    if 'end' in inputs_stdin:
         continue
     try:
-        input_value.update({input_stdin[0]: int(input_stdin[1])})
+        input_values.update({inputs_stdin[0]: int(inputs_stdin[1])})
     except ValueError:
-        input_value.update({input_stdin[0]: input_value[input_stdin[1]]})
-{print(f'{key} === {input_value[key]}') for key in input_value.keys()}
+        if inputs_stdin[1] in input_values:
+            input_values.update({inputs_stdin[0]: input_values[inputs_stdin[1]]})
+        else:
+            continue
+
+{print(f'{key} === {input_values[key]}') for key in input_values.keys()}
