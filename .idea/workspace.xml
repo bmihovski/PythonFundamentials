@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="655a1254-d5d9-4a42-8112-2985b9ddb6e6" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/mixed_phones.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/dict_ref.py" afterPath="$PROJECT_DIR$/dict_ref.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,8 +27,8 @@
       <file leaf-file-name="count_real_numbers.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/count_real_numbers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -44,11 +44,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dict_ref.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dict_ref.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dict_ref.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+            <state relative-caret-position="450">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mixed_phones.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mixed_phones.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -110,9 +120,10 @@
         <option value="$PROJECT_DIR$/sort_numbers.py" />
         <option value="$PROJECT_DIR$/square_numbers.py" />
         <option value="$PROJECT_DIR$/odd_occurrences.py" />
-        <option value="$PROJECT_DIR$/count_real_numbers.py" />
         <option value="$PROJECT_DIR$/letter_repetition.py" />
         <option value="$PROJECT_DIR$/dict_ref.py" />
+        <option value="$PROJECT_DIR$/count_real_numbers.py" />
+        <option value="$PROJECT_DIR$/mixed_phones.py" />
       </list>
     </option>
   </component>
@@ -171,7 +182,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dict_ref">
+  <component name="RunManager" selected="Python.mixed_phones">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -244,6 +255,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="mixed_phones" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/opt/local/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="week_two" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mixed_phones.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="odd_occurrences" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -257,24 +286,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="week_two" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/odd_occurrences.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="square_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/opt/local/bin/python3" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="week_two" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/square_numbers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -368,19 +379,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.square_numbers" />
-      <item index="1" class="java.lang.String" itemvalue="Python.odd_occurrences" />
-      <item index="2" class="java.lang.String" itemvalue="Python.count_real_numbers" />
-      <item index="3" class="java.lang.String" itemvalue="Python.letter_repetition" />
-      <item index="4" class="java.lang.String" itemvalue="Python.dict_ref" />
+      <item index="0" class="java.lang.String" itemvalue="Python.odd_occurrences" />
+      <item index="1" class="java.lang.String" itemvalue="Python.count_real_numbers" />
+      <item index="2" class="java.lang.String" itemvalue="Python.letter_repetition" />
+      <item index="3" class="java.lang.String" itemvalue="Python.dict_ref" />
+      <item index="4" class="java.lang.String" itemvalue="Python.mixed_phones" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.dict_ref" />
-        <item index="1" class="java.lang.String" itemvalue="Python.letter_repetition" />
-        <item index="2" class="java.lang.String" itemvalue="Python.count_real_numbers" />
-        <item index="3" class="java.lang.String" itemvalue="Python.odd_occurrences" />
-        <item index="4" class="java.lang.String" itemvalue="Python.square_numbers" />
+        <item index="0" class="java.lang.String" itemvalue="Python.mixed_phones" />
+        <item index="1" class="java.lang.String" itemvalue="Python.dict_ref" />
+        <item index="2" class="java.lang.String" itemvalue="Python.letter_repetition" />
+        <item index="3" class="java.lang.String" itemvalue="Python.count_real_numbers" />
+        <item index="4" class="java.lang.String" itemvalue="Python.odd_occurrences" />
       </list>
     </recent_temporary>
   </component>
@@ -720,7 +731,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517654751342</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="week four four exercise tested judge">
+      <created>1517656332818</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1517656332818</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TodoView">
@@ -738,13 +756,13 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18430753" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.49815693" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33638212" sideWeight="0.6097946" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33638212" sideWeight="0.39020538" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33638212" sideWeight="0.6113744" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33638212" sideWeight="0.3886256" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32825205" sideWeight="0.47709322" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5903107" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24960506" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.48973143" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.398374" sideWeight="0.43496576" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.398374" sideWeight="0.4328594" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -790,7 +808,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="week two second exercise" />
     <MESSAGE value="week two third exercise tested in judge" />
     <MESSAGE value="week two fourth exercise tested in judge" />
     <MESSAGE value="week two fifth exercise tested in judge" />
@@ -815,7 +832,8 @@
     <MESSAGE value="week four second exercise tested judge" />
     <MESSAGE value="week four three exercise tested judge" />
     <MESSAGE value="week four four one test failing in judge" />
-    <option name="LAST_COMMIT_MESSAGE" value="week four four one test failing in judge" />
+    <MESSAGE value="week four four exercise tested judge" />
+    <option name="LAST_COMMIT_MESSAGE" value="week four four exercise tested judge" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -841,11 +859,12 @@
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/dict_ref.py</url>
-          <option name="timeStamp" value="24" />
+          <url>file://$PROJECT_DIR$/mixed_phones.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="25" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -863,13 +882,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hello_world">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/person_info.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1222,14 +1234,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/count_real_numbers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/letter_repetition.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1238,10 +1242,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/count_real_numbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dict_ref.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+        <state relative-caret-position="450">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mixed_phones.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
