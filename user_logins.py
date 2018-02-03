@@ -49,11 +49,9 @@ while 'end' not in input_credentials:
                 print(f'{input_credentials[0]}: login failed')
             else:
                 print(f'{input_credentials[0]}: logged in successfully')
-                continue
         except KeyError:
             stored_credentials.update({'failed': 0})
             print(f'{input_credentials[0]}: login failed')
-            continue
     else:
         stored_credentials.update({input_credentials[0]: input_credentials[2]})
 

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="655a1254-d5d9-4a42-8112-2985b9ddb6e6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/user_logins.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/user_logins.py" afterPath="$PROJECT_DIR$/user_logins.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,8 +47,8 @@
       <file leaf-file-name="user_logins.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/user_logins.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="51" column="24" lean-forward="true" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+            <state relative-caret-position="378">
+              <caret line="49" column="17" lean-forward="true" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -411,13 +411,6 @@
       <option name="presentableId" value="Default" />
       <updated>1515433427111</updated>
     </task>
-    <task id="LOCAL-00001" summary="first exercise">
-      <created>1515442130438</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1515442130438</updated>
-    </task>
     <task id="LOCAL-00002" summary="first exercise">
       <created>1515442391366</created>
       <option name="number" value="00002" />
@@ -754,7 +747,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517665007520</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="week four sevem exercise tested judge">
+      <created>1517670674700</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1517670674702</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TodoView">
@@ -824,7 +824,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="week two fifth exercise tested in judge" />
     <MESSAGE value="week two six exercise tested in judge, changed docstrings on fifth" />
     <MESSAGE value="week two seven exercise tested in judge" />
     <MESSAGE value="week two eight exercise tested in judge" />
@@ -849,7 +848,8 @@
     <MESSAGE value="week four four exercise tested judge" />
     <MESSAGE value="week four five exercise tested judge" />
     <MESSAGE value="week four six exercise tested judge" />
-    <option name="LAST_COMMIT_MESSAGE" value="week four six exercise tested judge" />
+    <MESSAGE value="week four sevem exercise tested judge" />
+    <option name="LAST_COMMIT_MESSAGE" value="week four sevem exercise tested judge" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -881,7 +881,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/user_logins.py</url>
-          <line>52</line>
+          <line>51</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
@@ -1283,8 +1283,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/user_logins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="51" column="24" lean-forward="true" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+        <state relative-caret-position="378">
+          <caret line="49" column="17" lean-forward="true" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
           <folding />
         </state>
       </provider>
