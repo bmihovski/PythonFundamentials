@@ -1,5 +1,3 @@
-from collections import defaultdict
-
 """
 On the first line of the input, you will receive n -  the number of lines of clothes,
 which came prepackaged for the wardrobe.
@@ -44,7 +42,6 @@ wardrobe = dict()
 input_clothes = list()
 input_checkouts = list()
 items_wardrobe = int(input())
-printed_clothes = defaultdict(list)
 printed = []
 
 
