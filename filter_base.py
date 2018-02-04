@@ -82,7 +82,9 @@ Salary: 21.02
 
 """
 input_employees = list()
-employees = dict()
+age = dict()
+salary = dict()
+position = dict()
 filter_type = None
 
 
@@ -95,50 +97,35 @@ def _print_employee(name, criteria):
     """
     if criteria == 'Age':
         print('Name: ' + name)
-        print(f'{criteria}: {employees[name]}')
-        print('====================')
+        print(f'{criteria}: {age[name]}')
+        print('=' * 20)
     elif criteria == 'Salary':
         print('Name: ' + name)
-        print(f'{criteria}: {employees[name]}')
-        print('====================')
+        print(f'{criteria}: {salary[name]}')
+        print('=' * 20)
     else:
         print('Name: ' + name)
-        print(f'{criteria}: {employees[name]}')
-        print('====================')
+        print(f'{criteria}: {position[name]}')
+        print('=' * 20)
 
 
 while True:
     input_employees = input().split(' -> ')
-    if 'Age' in input_employees or 'Salary' in input_employees or 'Position' in input_employees:
-        filter_type = input_employees[0]
+    if 'filter base' in input_employees:
         break
-    elif 'filter base' in input_employees:
-        continue
-    elif input_employees[1].isdecimal():
-        if input_employees[0] in employees:
-            employees.pop(input_employees[0])
-            employees.update({input_employees[0]: int(input_employees[1])})
+    try:
+        float(input_employees[1])
+        if float(input_employees[1]) % 1 == 0:
+            age[input_employees[0]] = input_employees[1]
         else:
-            employees.update({input_employees[0]: int(input_employees[1])})
-    else:
-        try:
-            employees.update({input_employees[0]: float(input_employees[1])})
-            if input_employees[0] in employees:
-                employees.pop(input_employees[0])
-                employees.update({input_employees[0]: float(input_employees[1])})
-            else:
-                employees.update({input_employees[0]: float(input_employees[1])})
-        except ValueError:
-            if input_employees[0] in employees:
-                employees.pop(input_employees[0])
-                employees.update({input_employees[0]: input_employees[1]})
-            else:
-                employees.update({input_employees[0]: input_employees[1]})
+            salary[input_employees[0]] = input_employees[1]
+    except ValueError:
+        position[input_employees[0]] = input_employees[1]
 
-
+filter_type = input()
 if filter_type == 'Age':
-    [_print_employee(key, filter_type) for key in employees.keys() if type(employees[key]) is int]
+    {_print_employee(key, filter_type) for key in age.keys()}
 elif filter_type == 'Salary':
-    [_print_employee(key, filter_type) for key in employees.keys() if type(employees[key]) is float]
+    {_print_employee(key, filter_type) for key in salary.keys()}
 else:
-    [_print_employee(key, filter_type) for key in employees.keys() if type(employees[key]) is str]
+    {_print_employee(key, filter_type) for key in position.keys()}
