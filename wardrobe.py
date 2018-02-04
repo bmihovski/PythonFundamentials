@@ -44,10 +44,11 @@ wardrobe = dict()
 input_clothes = list()
 input_checkouts = list()
 items_wardrobe = int(input())
-printed = defaultdict(list)
+printed_clothes = defaultdict(list)
+printed = []
 
 
-def __items_wardrobe(color, cloth):
+def _items_wardrobe(color, cloth):
     """
     Prints the content of wardrobe by color and matches
     :param color: (Str) The color of clothes
@@ -56,13 +57,13 @@ def __items_wardrobe(color, cloth):
     """
     print(f'{color} clothes:')
     for cloth in wardrobe[color]:
-        if color == input_checkouts[0] and cloth == input_checkouts[1]:
-            print(f'* {cloth} - {wardrobe[color].count(cloth)} (found!)')
-        elif cloth in printed[color]:
+        if cloth in printed:
             continue
-        else:
-            print(f'* {cloth} - {wardrobe[color].count(cloth)}')
-        printed[color].append(cloth)
+        print(f'* {cloth} - {wardrobe[color].count(cloth)}', end='')
+        if color == input_checkouts[0] and cloth == input_checkouts[1]:
+            print(f' (found!)', end='')
+        print()
+        printed.append(cloth)
 
 
 for item in range(items_wardrobe):
@@ -73,5 +74,6 @@ for item in range(items_wardrobe):
     else:
         wardrobe.update({input_clothes[0]: clothes})
 
-input_checkouts = input().split(' ')
-{__items_wardrobe(key, input_checkouts[1]) for key in wardrobe.keys()}
+
+input_checkouts = input().split()
+{_items_wardrobe(key, input_checkouts[1]) for key in wardrobe.keys()}
