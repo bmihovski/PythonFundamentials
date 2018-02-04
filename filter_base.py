@@ -116,11 +116,11 @@ while True:
     try:
         float(input_employees[1])
         if float(input_employees[1]) % 1 == 0:
-            age[input_employees[0]] = input_employees[1]
+            age.update({input_employees[0]: input_employees[1]})
         else:
-            salary[input_employees[0]] = input_employees[1]
+            salary.update({input_employees[0]: input_employees[1]})
     except ValueError:
-        position[input_employees[0]] = input_employees[1]
+        position.update({input_employees[0]: input_employees[1]})
 
 filter_type = input()
 if filter_type == 'Age':
