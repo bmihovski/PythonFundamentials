@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="655a1254-d5d9-4a42-8112-2985b9ddb6e6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/distance_between_points.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/closest_two_points.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,41 +34,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="distance_between_points.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="distance_between_points.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/distance_between_points.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="58" column="33" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+            <state relative-caret-position="660">
+              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="codecs.py" pinned="false" current-in-tab="false">
-        <entry file="file:///opt/local/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/codecs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="266" column="0" lean-forward="false" selection-start-line="266" selection-start-column="0" selection-end-line="266" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sort_numbers.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sort_numbers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="square_numbers.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/square_numbers.py">
+      <file leaf-file-name="closest_two_points.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/closest_two_points.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exercises.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exercises.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="52" column="60" lean-forward="true" selection-start-line="52" selection-start-column="60" selection-end-line="52" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -140,6 +130,8 @@
         <option value="$PROJECT_DIR$/wardrobe.py" />
         <option value="$PROJECT_DIR$/shellbound.py" />
         <option value="$PROJECT_DIR$/distance_between_points.py" />
+        <option value="$PROJECT_DIR$/closest_two_points.py" />
+        <option value="$PROJECT_DIR$/exercises.py" />
       </list>
     </option>
   </component>
@@ -164,7 +156,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,6 +167,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -198,7 +190,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.distance_between_points">
+  <component name="RunManager" selected="Python.exercises">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -253,7 +245,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="remove_negatives_and_reverse" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="exercises" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -265,7 +257,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="week_two" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/remove_negatives_and_reverse.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercises.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -395,19 +387,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.remove_negatives_and_reverse" />
-      <item index="1" class="java.lang.String" itemvalue="Python.append_lists" />
-      <item index="2" class="java.lang.String" itemvalue="Python.sort_numbers" />
-      <item index="3" class="java.lang.String" itemvalue="Python.square_numbers" />
-      <item index="4" class="java.lang.String" itemvalue="Python.distance_between_points" />
+      <item index="0" class="java.lang.String" itemvalue="Python.append_lists" />
+      <item index="1" class="java.lang.String" itemvalue="Python.sort_numbers" />
+      <item index="2" class="java.lang.String" itemvalue="Python.square_numbers" />
+      <item index="3" class="java.lang.String" itemvalue="Python.distance_between_points" />
+      <item index="4" class="java.lang.String" itemvalue="Python.exercises" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.distance_between_points" />
-        <item index="1" class="java.lang.String" itemvalue="Python.square_numbers" />
-        <item index="2" class="java.lang.String" itemvalue="Python.sort_numbers" />
-        <item index="3" class="java.lang.String" itemvalue="Python.append_lists" />
-        <item index="4" class="java.lang.String" itemvalue="Python.remove_negatives_and_reverse" />
+        <item index="0" class="java.lang.String" itemvalue="Python.exercises" />
+        <item index="1" class="java.lang.String" itemvalue="Python.distance_between_points" />
+        <item index="2" class="java.lang.String" itemvalue="Python.square_numbers" />
+        <item index="3" class="java.lang.String" itemvalue="Python.sort_numbers" />
+        <item index="4" class="java.lang.String" itemvalue="Python.append_lists" />
       </list>
     </recent_temporary>
   </component>
@@ -424,20 +416,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1515433427111</updated>
-    </task>
-    <task id="LOCAL-00009" summary="fifth exercise">
-      <created>1515484226819</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1515484226819</updated>
-    </task>
-    <task id="LOCAL-00010" summary="fifth exercise">
-      <created>1515488102149</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1515488102149</updated>
     </task>
     <task id="LOCAL-00011" summary="week two first exercise">
       <created>1516049866052</created>
@@ -768,7 +746,21 @@
       <option name="project" value="LOCAL" />
       <updated>1517781561889</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="week five first exercise tested judge">
+      <created>1518031706358</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1518031706359</updated>
+    </task>
+    <task id="LOCAL-00059" summary="week five fourth exercise tested judge">
+      <created>1518263564865</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1518263564866</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TodoView">
@@ -785,13 +777,13 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18430753" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.49815693" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33638212" sideWeight="0.61506057" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33638212" sideWeight="0.38493943" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32825205" sideWeight="0.47709322" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32825205" sideWeight="0.52501315" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33638212" sideWeight="0.48183253" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32825205" sideWeight="0.47498682" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5671406" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24960506" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.48762506" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.398374" sideWeight="0.3870458" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.398374" sideWeight="0.38388625" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -838,8 +830,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="week three fourth failed five tested in judge" />
-    <MESSAGE value="week three fourth fixed" />
     <MESSAGE value="week three six tested judge" />
     <MESSAGE value="week three seven tested judge" />
     <MESSAGE value="week three eight tested judge" />
@@ -863,7 +853,9 @@
     <MESSAGE value="week four nine exercise tested judge failing" />
     <MESSAGE value="week four nine exercise tested judge" />
     <MESSAGE value="week four ten exercise tested judge" />
-    <option name="LAST_COMMIT_MESSAGE" value="week four ten exercise tested judge" />
+    <MESSAGE value="week five first exercise tested judge" />
+    <MESSAGE value="week five fourth exercise tested judge" />
+    <option name="LAST_COMMIT_MESSAGE" value="week five fourth exercise tested judge" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -889,12 +881,12 @@
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/distance_between_points.py</url>
-          <line>54</line>
-          <option name="timeStamp" value="19" />
+          <url>file://$PROJECT_DIR$/exercises.py</url>
+          <line>75</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="21" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -917,27 +909,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/numbers_with_step.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/person_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="31" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello_world">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/extendend_person_info.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1289,7 +1260,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="266" column="0" lean-forward="false" selection-start-line="266" selection-start-column="0" selection-end-line="266" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1297,14 +1267,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="786" column="0" lean-forward="false" selection-start-line="786" selection-start-column="0" selection-end-line="786" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/distance_between_points.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="58" column="33" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        <state relative-caret-position="660">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/closest_two_points.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2017.3/python_stubs/-292720640/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="811" column="8" lean-forward="false" selection-start-line="811" selection-start-column="8" selection-end-line="811" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="52" column="60" lean-forward="true" selection-start-line="52" selection-start-column="60" selection-end-line="52" selection-end-column="60" />
           <folding />
         </state>
       </provider>
