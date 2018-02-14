@@ -19,10 +19,10 @@ Where civil blood makes civil hands unclean.
 A pair of star-cross'd lovers take their life;
 Do with their death bury their parent's strife.
 """
-FILE_PATH = "./Resources/01. Odd Lines/"
+FILES_PATH = "./Resources/01. Odd Lines/"
 
 lines = list()
-with open(FILE_PATH + 'Input.txt') as input_file:
-    lines = (input_file.readlines())
-    with open(FILE_PATH + 'Output.txt', 'w') as out_file:
+with open(FILES_PATH + 'Input.txt') as input_file:
+    lines = input_file.readlines()
+    with open(FILES_PATH + 'Output.txt', 'w') as out_file:
         out_file.writelines([line for index, line in enumerate(lines) if index % 2 != 0])
