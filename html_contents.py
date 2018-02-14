@@ -59,19 +59,36 @@ Output
 
 class Title:
     def __init__(self, title):
+        """
+        Constructs html title tag
+        :param title: (Str) Title tag content
+        """
         self.title = title
 
     def gen_title(self):
+        """
+        Generates tag title in html format
+        :return: (Str) Generated title html content
+        """
         title = f'\t<title>{self.title}</title>\n'
         return title
 
 
 class Body:
     def __init__(self, tag, content):
+        """
+        Constructs html body content
+        :param tag: (Str) Tag name
+        :param content: (Str) Tag content
+        """
         self.tag = tag
         self.content = content
 
     def gen_body(self):
+        """
+        Generates body content in html format
+        :return: (Str) Generated body html content
+        """
         body_elem = f'\t<{self.tag}>{self.content}</{self.tag}>\n'
         return body_elem
 

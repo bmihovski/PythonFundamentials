@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="655a1254-d5d9-4a42-8112-2985b9ddb6e6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/html_contents.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/html_contents.py" afterPath="$PROJECT_DIR$/html_contents.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,8 +79,8 @@
       <file leaf-file-name="html_contents.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html_contents.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="75" column="24" lean-forward="false" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
+            <state relative-caret-position="230">
+              <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -491,13 +491,6 @@
       <option name="presentableId" value="Default" />
       <updated>1515433427111</updated>
     </task>
-    <task id="LOCAL-00022" summary="week two six exercise tested in judge, changed docstrings on fifth">
-      <created>1516395211082</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1516395211082</updated>
-    </task>
     <task id="LOCAL-00023" summary="week two seven exercise tested in judge">
       <created>1516443919229</created>
       <option name="number" value="00023" />
@@ -834,7 +827,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518630707123</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="week six five tested">
+      <created>1518636401681</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1518636401681</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TodoView">
@@ -904,7 +904,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="week four three exercise tested judge" />
     <MESSAGE value="week four four one test failing in judge" />
     <MESSAGE value="week four four exercise tested judge" />
     <MESSAGE value="week four five exercise tested judge" />
@@ -929,7 +928,8 @@
     <MESSAGE value="week six third tested" />
     <MESSAGE value="week six third tested small fix" />
     <MESSAGE value="week six four tested" />
-    <option name="LAST_COMMIT_MESSAGE" value="week six four tested" />
+    <MESSAGE value="week six five tested" />
+    <option name="LAST_COMMIT_MESSAGE" value="week six five tested" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -958,11 +958,6 @@
           <url>file://$PROJECT_DIR$/exercises.py</url>
           <line>75</line>
           <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/html_contents.py</url>
-          <line>98</line>
-          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -1381,8 +1376,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html_contents.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="75" column="24" lean-forward="false" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
+        <state relative-caret-position="230">
+          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding />
         </state>
       </provider>
