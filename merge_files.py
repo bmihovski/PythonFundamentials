@@ -27,6 +27,6 @@ FILES_PATH = "./Resources/03. Merge Files/"
 
 file_names = [FILES_PATH + 'FileOne.txt', FILES_PATH + 'FileTwo.txt']
 
-with open(FILES_PATH + 'Output.txt', 'w+') as output_file, input(file_names) as input_files:
+with open(FILES_PATH + 'Output.txt', 'w') as output_file, input(file_names) as input_files:
     input_files = [new_line + '\n' if new_line[-1] != '\n' else new_line for new_line in sorted(input_files)]
     [output_file.write(line) for line in input_files]
