@@ -1,5 +1,4 @@
 from pickle import dump, load
-from os import stat
 
 """
 You have been tasked to create a database for several users, using … Text files.
@@ -76,11 +75,13 @@ class User:
 while True:
     lines_input = input().split()
     try:
-        users_db = load(open(USER_DB_FILE, 'rb'))
+        with open(USER_DB_FILE, 'rb') as db:
+            users_db = load(db)
     except FileNotFoundError:
         pass
     if 'exit' in lines_input[0]:
-        dump(users_db, open(USER_DB_FILE, 'wb'))
+        with open(USER_DB_FILE, 'wb') as db:
+            dump(users_db, db)
         break
     elif 'register' in lines_input[0]:
         if lines_input[2] in users_db.keys():
