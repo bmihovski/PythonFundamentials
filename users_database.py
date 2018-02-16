@@ -1,3 +1,6 @@
+from pickle import dump, load
+from os import stat
+
 """
 You have been tasked to create a database for several users, using … Text files.
 The client will give you several input commands. There are two main commands:
@@ -54,3 +57,50 @@ Output
 The given username already exists.
 There is no currently logged in user.
 """
+USER_DB_FILE = "users.txt"
+users_db = dict()
+lines_input = list()
+
+
+class User:
+    def __init__(self, passwd, logged=False):
+        """
+        Constucts user model with password and logged in status
+        :param passwd: (Str) User password
+        :param logged: (Bool) Logged in status
+        """
+        self.passwd = passwd
+        self.logged = bool(logged)
+
+
+while True:
+    lines_input = input().split()
+    try:
+        users_db = load(open(USER_DB_FILE, 'rb'))
+    except FileNotFoundError:
+        pass
+    if 'exit' in lines_input[0]:
+        dump(users_db, open(USER_DB_FILE, 'wb'))
+        break
+    elif 'register' in lines_input[0]:
+        if lines_input[2] in users_db.keys():
+            print('The given username already exists.')
+        elif lines_input[2] == lines_input[3]:
+            users_db.update({lines_input[1]: User(lines_input[2])})
+        else:
+            print('The two passwords must match.')
+    elif 'login' in lines_input[0]:
+        if lines_input[1] not in users_db.keys():
+            print('There is no user with the given username.')
+        elif lines_input[2] != users_db[lines_input[1]].passwd:
+            print('The password you entered is incorrect.')
+        elif users_db[lines_input[1]].logged:
+            print('There is already a logged in user.')
+        else:
+            users_db[lines_input[1]].passwd = True
+    elif 'logout' in lines_input[0]:
+        if not users_db.values():
+            print('There is no currently logged in user.')
+        else:
+            for user in users_db.keys():
+                users_db[user].logged = False
