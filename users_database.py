@@ -72,18 +72,21 @@ class User:
         self.logged = bool(logged)
 
 
+try:
+    with open(USER_DB_FILE, 'rb') as db:
+        users_db = load(db)
+except FileNotFoundError:
+    pass
+
 while True:
     lines_input = input().split()
-    try:
-        with open(USER_DB_FILE, 'rb') as db:
-            users_db = load(db)
-    except FileNotFoundError:
-        pass
     if 'exit' in lines_input[0]:
+        for user in users_db.keys():
+            users_db[user].logged = False
         with open(USER_DB_FILE, 'wb') as db:
             dump(users_db, db)
         break
-    elif 'register' in lines_input[0]:
+    if 'register' in lines_input[0]:
         if lines_input[2] in users_db.keys():
             print('The given username already exists.')
         elif lines_input[2] == lines_input[3]:
@@ -98,10 +101,10 @@ while True:
         elif users_db[lines_input[1]].logged:
             print('There is already a logged in user.')
         else:
-            users_db[lines_input[1]].passwd = True
+            users_db[lines_input[1]].logged = True
     elif 'logout' in lines_input[0]:
-        if not users_db.values():
+        if all(not value.logged for value in users_db.values()):
             print('There is no currently logged in user.')
-        else:
-            for user in users_db.keys():
+        for user in users_db.keys():
+            if users_db[user].logged:
                 users_db[user].logged = False

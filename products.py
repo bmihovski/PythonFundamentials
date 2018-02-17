@@ -48,7 +48,6 @@ IPhone7 Electronics 1000 100
 Apple Food 1 100000
 Microwave Electronics 149.99 2500
 Toster Electronics 20.00 15730
-analyze
 sales
 Mopper Domestics 10.05 10000
 ToiletPaper Domestics 5.50 100000
@@ -67,76 +66,65 @@ Domestics: $650500.00
 Food: $115000.00
 """
 STOCK_FILE = "stock.p"
-food = dict()
-electronics = dict()
-domestics = dict()
+FIRST_TYPE = "Domestics"
+SECOND_TYPE = "Electronics"
+THIRD_TYPE = "Food"
+prod = dict()
 lines_input = list()
 
 
 class Product:
-    def __init__(self, price, quantity):
+    def __init__(self, prod_type, price, quantity):
+        """
+        Constructs product object
+        :param prod_type: (Str) Product type
+        :param price: (Float) Product price
+        :param quantity: (Int) Product quantity
+        """
+        self.prod_type = str(prod_type)
         self.price = float(price)
         self.quantity = int(quantity)
-
-
-def add_update_product(prod_type, prod_name, price, qty):
-    if prod_type == 'Food':
-        food.update({prod_name: Product(price, qty)})
-    elif prod_type == 'Electronics':
-        electronics.update({prod_name: Product(price, qty)})
-    else:
-        domestics.update({prod_name: Product(price, qty)})
 
 
 while True:
     lines_input = input().split()
     try:
         with open(STOCK_FILE, 'rb') as stock_db:
-            food, electronics, domestics = load(stock_db)
+            prod = load(stock_db)
     except FileNotFoundError:
         pass
     if 'exit' in lines_input[0]:
         break
-    elif 'sales' in lines_input[0]:
+    elif 'stock' in lines_input[0]:
         with open(STOCK_FILE, 'wb') as stock_db:
-            dump((food, electronics, domestics), stock_db)
+            dump(prod, stock_db)
     elif 'analyze' in lines_input[0]:
-        if not domestics.keys():
-            print('No products stocked')
-        else:
-            {print(f'Domestics, Product: {product} Price: ${domestics[product].price:.2f}, Amount Left: '
-                   f'{domestics[product].quantity}') for product in sorted(domestics.keys())}
-        if not electronics.keys():
-            print('No products stocked')
-        else:
-            {print(f'Electronics, Product: {product} Price: ${electronics[product].price:.2f}, Amount Left: '
-                   f'{electronics[product].quantity}') for product in sorted(electronics.keys())}
-        if not food.keys():
-            print('No products stocked')
-        else:
-            {print(f'Food, Product: {product} Price: ${food[product].price:.2f}, Amount Left: '
-                   f'{food[product].quantity}') for product in sorted(food.keys())}
+        {print(f'{props.prod_type}, Product: {name} Price: ${props.price:.2f}, Amount Left: '
+               f'{props.quantity}')
+         if props.prod_type == FIRST_TYPE or props.prod_type == SECOND_TYPE
+            or props.prod_type == THIRD_TYPE else print('No products stocked') for name, props in
+         sorted(prod.items(), reverse=True)}
     elif 'sales' in lines_input[0]:
-        electronics_sales = map(lambda x: electronics[x].price * electronics[x].quantity, electronics.keys())
-        print(*electronics_sales)
-        #"{firstType}: ${income} {secondType}: ${income}  {thirdType}: ${income}"
-    elif lines_input[0] in food.keys() or lines_input[0] in electronics.keys() or lines_input[0] in domestics.keys():
-        if lines_input[1] == 'Food':
-            add_update_product(prod_name=lines_input[0], prod_type=lines_input[1],
-                               price=lines_input[2], qty=lines_input[3])
-        elif lines_input[1] == 'Electronics':
-            add_update_product(prod_name=lines_input[0], prod_type=lines_input[1],
-                               price=lines_input[2], qty=lines_input[3])
-        else:
-            add_update_product(prod_name=lines_input[0], prod_type=lines_input[1],
-                               price=lines_input[2], qty=lines_input[3])
+        incomes_dom = 0
+        incomes_elec = 0
+        incomes_food = 0
+        for index, product in enumerate(prod.values()):
+            if product.prod_type == FIRST_TYPE:
+                incomes_dom += (product.price * product.quantity)
+            if product.prod_type == SECOND_TYPE:
+                incomes_elec += (product.price * product.quantity)
+            if product.prod_type == THIRD_TYPE:
+                incomes_food += (product.price * product.quantity)
+        if incomes_dom > 0:
+            print(f'{FIRST_TYPE}: ${incomes_dom}')
+        if incomes_elec > 0:
+            print(f'{SECOND_TYPE}: ${incomes_elec}')
+        if incomes_food > 0:
+            print(f'{THIRD_TYPE}: ${incomes_food}')
+    elif lines_input[0] in prod.keys():
+        product_type = prod[lines_input[0]].prod_type
+        prod.update({lines_input[0]: Product(prod_type=product_type,
+                                             price=lines_input[2], quantity=lines_input[3])})
     else:
-        if lines_input[1] == 'Food':
-            add_update_product(prod_name=lines_input[0], prod_type=lines_input[1],
-                               price=lines_input[2], qty=lines_input[3])
-        elif lines_input[1] == 'Electronics':
-            add_update_product(prod_name=lines_input[0], prod_type=lines_input[1],
-                               price=lines_input[2], qty=lines_input[3])
-        else:
-            add_update_product(prod_name=lines_input[0], prod_type=lines_input[1],
-                               price=lines_input[2], qty=lines_input[3])
+        prod.update({lines_input[0]: Product(prod_type=lines_input[1],
+                                             price=lines_input[2], quantity=lines_input[3])})
