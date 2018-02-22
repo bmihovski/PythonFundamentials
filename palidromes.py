@@ -14,4 +14,4 @@ input_words = input().split()
 
 words = filter(lambda x: x == x[::-1], input_words)
 
-print(*sorted(words, key=str.lower), sep=', ')
+print(*sorted(set(words), key=str.lower), sep=', ')
