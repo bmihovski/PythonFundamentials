@@ -464,13 +464,6 @@
       <option name="presentableId" value="Default" />
       <updated>1515433427111</updated>
     </task>
-    <task id="LOCAL-00035" summary="week three eight tested judge">
-      <created>1517051143531</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1517051143531</updated>
-    </task>
     <task id="LOCAL-00036" summary="week three nine tested judge">
       <created>1517053720371</created>
       <option name="number" value="00036" />
@@ -807,7 +800,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519376547596</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="project setup final">
+      <created>1519377931760</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1519377931761</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TodoView">
@@ -888,7 +888,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="week four eight exercise tested judge still to do" />
     <MESSAGE value="week four eight exercise tested judge" />
     <MESSAGE value="week four nine exercise tested judge failing" />
     <MESSAGE value="week four nine exercise tested judge" />
@@ -913,7 +912,8 @@
     <MESSAGE value="week six six tested" />
     <MESSAGE value="Weeek six six and nine fixed" />
     <MESSAGE value="project setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="project setup" />
+    <MESSAGE value="project setup final" />
+    <option name="LAST_COMMIT_MESSAGE" value="project setup final" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
