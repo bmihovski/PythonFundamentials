@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="655a1254-d5d9-4a42-8112-2985b9ddb6e6" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/shelf/Week_seven_five_tested1.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -475,13 +476,6 @@
       <option name="presentableId" value="Default" />
       <updated>1515433427111</updated>
     </task>
-    <task id="LOCAL-00038" summary="week three ten tested in judge">
-      <created>1517076259566</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1517076259566</updated>
-    </task>
     <task id="LOCAL-00039" summary="week three ten tested in judge">
       <created>1517257844728</created>
       <option name="number" value="00039" />
@@ -818,7 +812,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519380387319</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="Week seven five tested">
+      <created>1519380572673</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1519380572673</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TodoView">
