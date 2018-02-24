@@ -52,12 +52,12 @@ while True:
         final_string = (final_string[:int(index_txt_to_insert[1])] + index_txt_to_insert[2] +
                         final_string[int(index_txt_to_insert[1]):])
     elif 'Left' in input_strings:
-        left_reverse = input_strings.split()
-        for count in range(int(left_reverse[1])):
+        left_roll = input_strings.split()
+        for count in range(int(left_roll[1])):
             final_string = final_string[1:] + final_string[0]
     elif 'Right' in input_strings:
-        right_reverse = input_strings.split()
-        for count in range(int(left_reverse[1])):
+        right_roll = input_strings.split()
+        for count in range(int(right_roll[1])):
             final_string = final_string[-1] + final_string[:-1]
     else:
         final_string = input_strings
