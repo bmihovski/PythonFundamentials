@@ -46,7 +46,9 @@ while True:
         break
     elif 'Delete' in input_strings:
         indexes_to_delete = input_strings.split()
-        final_string = final_string.replace(final_string[int(indexes_to_delete[1]):int(indexes_to_delete[-1]) + 1], '')
+        start_index_to_delete = int(indexes_to_delete[1])
+        end_index_to_delete = int(indexes_to_delete[-1]) + 1
+        final_string = final_string.replace(final_string[start_index_to_delete:end_index_to_delete], '')
     elif 'Insert' in input_strings:
         index_txt_to_insert = input_strings.split()
         final_string = (final_string[:int(index_txt_to_insert[1])] + index_txt_to_insert[2] +
