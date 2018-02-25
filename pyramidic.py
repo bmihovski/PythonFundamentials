@@ -1,5 +1,6 @@
 # coding=utf-8
 from collections import defaultdict
+from operator import itemgetter
 
 """
 You will be given N - an integer. On the next N input lines, you will be given N strings,
@@ -37,6 +38,7 @@ ddddasd
 !!ddddd!!!!!!!!...
 dddddddd
 
+
 Output
 g
 ggg
@@ -50,15 +52,23 @@ ddddddd
 """
 num_lines_to_check = int(input())
 pyramids = defaultdict(list)
+occur = 1
 
 for _ in range(num_lines_to_check, 0, -1):
     input_line = input()
-    for pyr_sym in input_line:
-        if input_line.count(pyr_sym) >= 3:
-            pyramids[pyr_sym].append(input_line.count(pyr_sym) * pyr_sym)
-            break
+    for i in range(1, len(input_line)):
+        if input_line[i - 1] == input_line[i] and i != len(input_line) - 1:
+            occur += 1
+        else:
+            if occur >= 3:
+                pyramids[input_line[i - 1]].append(occur)
+                occur = 1
+            occur = 1
 
-for key, value in pyramids.items():
-    if key * num_lines_to_check in value:
-        print(key)
-        print(*pyramids[key], sep='\n')
+biggest_formation = (sorted(pyramids, key=lambda k: len(pyramids[k]), reverse=True))[0]
+
+for index in range(len(pyramids[biggest_formation]) + 1):
+    if index == 0:
+        print(biggest_formation)
+    else:
+        print(biggest_formation * (index * 2 + 1))
