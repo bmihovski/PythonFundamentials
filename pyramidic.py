@@ -67,8 +67,9 @@ for _ in range(num_lines_to_check, 0, -1):
 
 biggest_formation = (sorted(pyramids, key=lambda k: len(pyramids[k]), reverse=True))[0]
 
-for index in range(len(pyramids[biggest_formation]) + 1):
-    if index == 0:
-        print(biggest_formation)
-    else:
-        print(biggest_formation * (index * 2 + 1))
+if len(pyramids[biggest_formation]) > 0:
+    for index in range(len(pyramids[biggest_formation]) + 1):
+        if index == 0:
+            print(biggest_formation)
+        else:
+            print(biggest_formation * (index * 2 + 1))
