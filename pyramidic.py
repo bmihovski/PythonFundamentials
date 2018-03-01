@@ -38,7 +38,6 @@ ddddasd
 !!ddddd!!!!!!!!...
 dddddddd
 
-
 Output
 g
 ggg
@@ -51,25 +50,32 @@ ddddd
 ddddddd
 """
 num_lines_to_check = int(input())
-pyramids = defaultdict(list)
+pyramids = dict()
+input_lines = list()
 occur = 1
 
 for _ in range(num_lines_to_check, 0, -1):
     input_line = input()
-    for i in range(1, len(input_line)):
-        if input_line[i - 1] == input_line[i] and i != len(input_line) - 1:
-            occur += 1
+    input_lines.append(input_line)
+    for letter in set(input_line):
+        if letter in pyramids:
+            letter_count = input_line.count(letter) + pyramids[letter]
+            pyramids[letter] = letter_count
         else:
-            if occur >= 3:
-                pyramids[input_line[i - 1]].append(occur)
-                occur = 1
-            occur = 1
+            pyramids[letter] = input_line.count(letter)
 
-biggest_formation = (sorted(pyramids, key=lambda k: len(pyramids[k]), reverse=True))[0]
-
-if len(pyramids[biggest_formation]) > 0:
-    for index in range(len(pyramids[biggest_formation]) + 1):
-        if index == 0:
-            print(biggest_formation)
+if len(pyramids.values()) > 0:
+    biggest_formation = (sorted(pyramids, key=pyramids.get, reverse=True))[0]
+    row_to_print = 0
+    for input_row in input_lines:
+        letters_per_row_count = 2 * row_to_print + 1
+        letter_per_row_str = str(biggest_formation) * letters_per_row_count
+        replaced_row = input_row.replace(letter_per_row_str, ' ')
+        if replaced_row == input_row:
+            continue
         else:
-            print(biggest_formation * (index * 2 + 1))
+            row_to_print += 1
+
+for row in range(row_to_print):
+    repeat_number = 2 * row + 1
+    print(biggest_formation * repeat_number)
